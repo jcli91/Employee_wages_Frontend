@@ -4,11 +4,14 @@ import { Link } from "react-router-dom";
 const Employee = ({employee}) => {
 
     const div = {
+        
         textAlign: "center",
         border: "3px solid",
         margin: "10px auto",
-        width: "50%",
-        borderRadius: "30px"
+        width: "70%",
+        borderRadius: "30px",
+        wordWrap: "break-word"
+        
       };
 
     return <div style={div}>

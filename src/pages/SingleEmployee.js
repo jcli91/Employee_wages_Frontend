@@ -15,7 +15,8 @@ const SingleEmployee = ({ employees, edit, deleteEmployee }) => {
         borderRadius: "30px",
         width: "60%",
         margin: "30px auto",
-        padding: "2px"
+        padding: "2px",
+        wordWrap: "break-word"
     }
 
     return <div style={div}>
