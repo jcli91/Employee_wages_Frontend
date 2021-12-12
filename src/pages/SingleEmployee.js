@@ -11,20 +11,21 @@ const SingleEmployee = ({ employees, edit, deleteEmployee }) => {
 
     const div = {
         textAlign: "center",
-        border: "3px solid blue",
+        border: "3px solid grey",
+        borderRadius: "30px",
         width: "60%",
         margin: "30px auto",
         padding: "2px"
     }
 
     return <div style={div}>
-        <h1>{employee?.name}</h1>
-        <h2>Position: {employee?.position}</h2>
+        <h2>Name: {employee?.name}</h2>
+        <h3>Position: {employee?.position}</h3>
         <h3>Hourly Rate: ${employee?.rate}</h3>
         <h3>Hours Worked: {employee?.hours}</h3>
-        <button onClick={() => edit(employee)}>Edit</button>
+        <button id="button" onClick={() => edit(employee)}>Edit</button>
 
-        <button type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <button id="fire" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal">
             Fire
         </button>
         
@@ -48,7 +49,7 @@ const SingleEmployee = ({ employees, edit, deleteEmployee }) => {
         </div>
         {/* <button onClick={() => deleteEmployee(employee)}>Fire</button> */}
         <Link to="/">
-            <button>Back</button>
+            <button id="button">Back</button>
         </Link>
     </div>
 }

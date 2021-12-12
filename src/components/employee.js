@@ -7,14 +7,15 @@ const Employee = ({employee}) => {
         textAlign: "center",
         border: "3px solid",
         margin: "10px auto",
-        width: "60%",
+        width: "50%",
+        borderRadius: "30px"
       };
 
     return <div style={div}>
         <Link to ={`/employee/${employee.id}`}>
             <h1>{employee.name}</h1>
         </Link>
-        <h2>Position: {employee.position}</h2>
+        <h3>Position: {employee.position}</h3>
         <h3>Total Wages: ${employee.rate * employee.hours}</h3>
     </div>
 }

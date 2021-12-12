@@ -48,7 +48,7 @@ const Form = ({initialEmployee, handleSubmit, buttonLabel}) => {
         value={formData.hours}
         name="hours"
         />
-        <input type="submit" value={buttonLabel}/>
+        <input id="add" type="submit" value={buttonLabel}/>
     </form>
     
     

@@ -7,13 +7,16 @@ import { Route, Routes, Link, useNavigate } from 'react-router-dom'
 
 const h1 = {
   textAlign: "center",
-  margin: "10px"
+  margin: "10px",
+  fontSize: "55px",
+  padding: "5px"
 }
 
 const button = {
   backgroundColor: "grey",
   display: "block",
-  margin: "auto"
+  margin: "0px auto",
+  border: "2px solid grey"
 }
 
 function App() {

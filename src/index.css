@@ -13,4 +13,50 @@ code {
 }
 button {
   margin: 2px;
+  border: 2px solid grey;
+  color: grey;
+  background-color: black;
 }
+.button {
+  color: grey;
+}
+
+input {
+  color: grey;
+  border: none;
+}
+input :onclick{
+  border: none;
+}
+h1 {
+  color:black;
+  font-weight: bolder;
+}
+
+form {
+  color: grey;
+}
+
+#button {
+  background-color: black;
+  border: none;
+}
+button #button {
+  background-color: black;
+  border: none;
+}
+
+button #fire {
+  background-color: red;
+}
+button #add {
+  background-color: black;
+}
+.button-black {
+  background-color: black;
+}
+
+form :onclick {
+  border: none;
+}
+

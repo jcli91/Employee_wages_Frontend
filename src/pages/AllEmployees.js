@@ -12,7 +12,7 @@ let total = 0
             total += (employee.hours * employee.rate)
             return <Employee key={employee.id} employee={employee}/>
         })}
-        <h2 style={{textAlign: "center"}}>TOTAL EMPLOYEE WAGES: ${total}</h2>
+        <h2 style={{textAlign: "center", color: "black"}}>TOTAL EMPLOYEE WAGES: ${total}</h2>
         </>
     ) 
 }
