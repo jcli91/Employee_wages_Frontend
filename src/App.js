@@ -67,6 +67,7 @@ function App() {
   };
 
   const deleteEmployee = async (employee) => {
+    // window.confirm("Are you sure you want to fire this amazing employee?")
     await fetch(url + employee.id, {
       method: "delete"
     })
@@ -80,7 +81,7 @@ function App() {
   }, [])
 
   return (
-    
+
     <div className="App">
       <h1 style={h1}>Employees</h1>
       <Link to="/new"><button style={button}>New Employee</button></Link>
