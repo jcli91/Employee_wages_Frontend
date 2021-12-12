@@ -14,9 +14,8 @@ const Employee = ({employee}) => {
         <Link to ={`/employee/${employee.id}`}>
             <h1>{employee.name}</h1>
         </Link>
-        <h2>{employee.position}</h2>
-        <h3>{employee.rate}</h3>
-        <h3>{employee.hours}</h3>
+        <h2>Position: {employee.position}</h2>
+        <h3>Total Wages: ${employee.rate * employee.hours}</h3>
     </div>
 }
 

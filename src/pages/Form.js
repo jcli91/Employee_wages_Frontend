@@ -50,6 +50,8 @@ const Form = ({initialEmployee, handleSubmit, buttonLabel}) => {
         />
         <input type="submit" value={buttonLabel}/>
     </form>
+    
+    
 }
 
 export default Form;

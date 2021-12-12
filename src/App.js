@@ -80,6 +80,7 @@ function App() {
   }, [])
 
   return (
+    
     <div className="App">
       <h1 style={h1}>Employees</h1>
       <Link to="/new"><button style={button}>New Employee</button></Link>

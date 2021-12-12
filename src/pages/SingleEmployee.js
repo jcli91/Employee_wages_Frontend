@@ -18,9 +18,9 @@ const SingleEmployee = ({ employees, edit, deleteEmployee }) => {
 
     return <div style={div}>
         <h1>{employee?.name}</h1>
-        <h2>{employee?.position}</h2>
-        <h3>{employee?.rate}</h3>
-        <h3>{employee?.hours}</h3>
+        <h2>Position: {employee?.position}</h2>
+        <h3>Hourly Rate: ${employee?.rate}</h3>
+        <h3>Hours Worked: {employee?.hours}</h3>
         <button onClick={() => edit(employee)}>Edit</button>
         <button onClick={() => deleteEmployee(employee)}>Fire</button>
         <Link to="/">
