@@ -11,11 +11,10 @@ const SingleEmployee = ({ employees, edit, deleteEmployee }) => {
 
     const div = {
         textAlign: "center",
-        border: "3px solid grey",
+        border: "1px solid grey",
         borderRadius: "30px",
         width: "60%",
         margin: "30px auto",
-        padding: "2px",
         wordWrap: "break-word"
     }
 

@@ -13,9 +13,9 @@ code {
 }
 button {
   margin: 2px;
-  border: 2px solid grey;
   color: grey;
   background-color: black;
+  color: white;
 }
 .button {
   color: grey;
@@ -40,10 +40,12 @@ form {
 #button {
   background-color: black;
   border: none;
+  margin: 2px;
 }
 button #button {
   background-color: black;
   border: none;
+  margin: 2px;
 }
 
 button #fire {

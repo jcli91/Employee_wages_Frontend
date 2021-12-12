@@ -16,7 +16,8 @@ const button = {
   backgroundColor: "grey",
   display: "block",
   margin: "0px auto",
-  border: "2px solid grey"
+  border: "2px solid grey",
+  color: "white",
 }
 
 function App() {
@@ -86,7 +87,7 @@ function App() {
   return (
 
     <div className="App">
-      <h1 style={h1}>Employees</h1>
+      <h1 style={h1}>EZwage</h1>
       <Link to="/new"><button style={button}>New Employee</button></Link>
       <Routes>
         <Route path="/" element={<AllEmployees employees={employees} />} />
